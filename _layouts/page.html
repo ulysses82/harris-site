@@ -11,12 +11,12 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    {{page.intro.intro_text}}
-    {{page.intro.intro_image}}
+    {{page.Intro.intro_text}}
+    {{page.Intro.intro_image}}
 
-    {% for gallery in page.gallery %}
+    {% for Gallery in page.Gallery %}
   
-  {{ page.gallery.Caption }}
+  {{ page.Gallery.Caption }}
   <img src="{{ page.gallery.Image }}" />
 
 	{% endfor %}
