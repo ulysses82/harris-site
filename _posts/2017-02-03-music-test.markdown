@@ -2,8 +2,8 @@
 title: Music test
 date: 2017-02-03 16:09:00 Z
 Intro:
-  intro text: Intro text for music here
-  intro image: "/uploads/ROTRB-9.-Akinola-Davies---Film-Maker-%C2%A9-Dean-Chalkley-be79ec.jpg"
+  intro_text: Intro text for music here
+  intro_image: "/uploads/ROTRB-9.-Akinola-Davies---Film-Maker-%C2%A9-Dean-Chalkley-be79ec.jpg"
 Gallery:
 - Image: "/uploads/slide-1.png"
   Caption: this is definitely a picture
