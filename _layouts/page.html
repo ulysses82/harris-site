@@ -12,17 +12,17 @@ layout: default
     {{ content }}
 
     {{page.Intro.intro_text}}
-    {{page.Intro.intro_image}}
+     <img src={{page.Intro.intro_image}}/>
 
-    {% for Gallery in page.Gallery %}
+   
   
   {{ page.Gallery.Caption }}
-  <img src="{{ page.gallery.Image }}" />
+  <img src="{{ page.Gallery.Image }}"/> 
 
-	{% endfor %}
+	
 
 
   </div>
-    }
+   
 
 </article>
