@@ -154,7 +154,7 @@ pre {
 
 /**
  * Wrapper
- */
+ *
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -171,8 +171,126 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+*/
+
+.menu {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    top: 42px;
+    left: 0;
+   width:100%;
+   text-align:center;
+    height: 21px;
+    z-index: 10;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 1024px)   {
+  
+  .menu
+  {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu .menu-half
+  {
+    width: 50%;
+    float: left;
+  }
+  
+  .menu h1,
+  .menu ul
+  {
+    float: none;
+    display: inline-block;
+  }
+  
+  .menu li
+  {
+    margin: 0 5px
+  }
+  
+  #intro-menu {
+   width: 50%;
+   text-align: center;
+   float: left;
+   display: table;
+   height: 100%;
+   list-style: none;
+ }
+
+   #intro-slides {
+
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 100%;
+  
+}
 
 
+
+}
+
+@media only screen and (max-width: 1024px)   {
+  #intro-menu {
+    width:100%;
+    text-align: center;
+   float: left;
+   display: table;
+   height: 100%;
+   list-style: none;
+  }
+
+}
+
+.menu ul
+  {
+    float: right;
+    text-align: right;
+    
+   
+  }
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/**
+ * Nav
+ */
+
+#inner-block {
+display: table-cell;
+vertical-align: middle;
+
+}
+ #intro-menu {
+  
+   text-align: center;
+   float: left;
+   display: table;
+   height: 100%;
+   list-style: none;
+ }
+
+
+ul#navigation {
+
+  display: inline;
+  list-style: none;
+}
+ 
+#intro-slides {
+
+
+  
+}
 
 /**
  * Clearfix
