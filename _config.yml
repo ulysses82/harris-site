@@ -5,14 +5,15 @@ collections:
   posts:
     title: Posts
     output: true
-    Category:
-    - Music
-    - Fashion
-    - Luxury
-    - Brands
-    Content Type:
-    - half-width
-    - full-width
+    Field name:
+    - Image: 
+      Caption: 
+    - Image: 
+      Caption: 
+    - Image: 
+      Caption: 
+    - Image: 
+      Caption: 
   uploads:
     title: Uploads
     output: true
