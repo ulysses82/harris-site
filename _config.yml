@@ -5,6 +5,10 @@ collections:
   posts:
     title: Posts
     output: true
+    Category: Music
+    Content Type:
+    - half-width
+    - full-width
   uploads:
     title: Uploads
     output: true
