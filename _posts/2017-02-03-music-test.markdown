@@ -1,7 +1,7 @@
 ---
 title: Music test
 date: 2017-02-03 16:09:00 Z
-Field name:
+Gallery:
 - Image: "/uploads/slide-1.png"
   Caption: this is definitely a picture
 - Image: "/uploads/slide-2.png"
@@ -13,4 +13,4 @@ Field name:
 layout: post
 ---
 
-Intro text for music here
+Intro text for music here![ROTRB-9.-Akinola-Davies---Film-Maker-©-Dean-Chalkley.jpg](/uploads/ROTRB-9.-Akinola-Davies---Film-Maker-%C2%A9-Dean-Chalkley.jpg)
