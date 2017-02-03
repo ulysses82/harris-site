@@ -10,6 +10,19 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+
+    {{page.intro.intro_text}}
+    {{page.intro.intro_image}}
+
+    {% for gallery in page.gallery %}
+  
+  {{ page.gallery.Caption }}
+  <img src="{{ page.gallery.Image }}" />
+
+	{% endfor %}
+
+
   </div>
+    }
 
 </article>
