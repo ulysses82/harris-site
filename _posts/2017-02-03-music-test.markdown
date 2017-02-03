@@ -13,6 +13,7 @@ Gallery:
   Caption: this is no.3
 - Image: "/uploads/slide-5.png"
   Caption: no.4 is right here
+author: 
 layout: page
 ---
 
