@@ -10,6 +10,7 @@ Field name:
   Caption: this is no.3
 - Image: "/uploads/slide-5.png"
   Caption: no.4 is right here
+layout: post
 ---
 
 Intro text for music here
