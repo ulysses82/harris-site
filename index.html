@@ -17,16 +17,16 @@ layout: default
 <div id="fullpage">
   <div class="section">
 
-    <div id="intro-menu">
-      <div id="inner-block"
-      <ul id="navigation">
-          <li data-menuanchor="firstPage" class="active"><a href="#secondPage">Music</a></li>
-          <li data-menuanchor="secondPage"><a href="#3rdPage">Fashion</a></li>
-          <li data-menuanchor="3rdPage"><a href="#4thpage">Brands</a></li>
-          <li data-menuanchor="4thpage"><a href="#5thpage">Luxury</a></li>
-      </ul>
+      <div id="intro-menu">
+        <div id="inner-block"
+           <ul id="navigation">
+             <li data-menuanchor="firstPage" class="active"><a href="#secondPage">Music</a></li>
+             <li data-menuanchor="secondPage"><a href="#3rdPage">Fashion</a></li>
+             <li data-menuanchor="3rdPage"><a href="#4thpage">Brands</a></li>
+              <li data-menuanchor="4thpage"><a href="#5thpage">Luxury</a></li>
+          </ul>
+       </div>
       </div>
-    </div>
     <div id="intro-slides">
    </div>
 
@@ -34,25 +34,25 @@ layout: default
 
 
   <div class="section">Music
-<ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+    
+      {% for post in site.posts %}
+      
         <div class="slide"> 
-        <img src="{{ post.assets.first.url }}" alt="{{ post.title }}" />
-        <h2>
-          { post.title}}
-        </h2>
-         <p class="post-body">
-        {% if post.meta.excerpt %}
-          {{post.meta.excerpt | strip_html}}
-        {% else %}
-          {{post.body | strip_html | truncate: 200}}
-        {% endif %}
-      </p>
-      </li>
+          <img src="{{ post.assets.first.url }}" alt="{{ post.title }}" />
+            <h2>
+            {{post.title}}
+            </h2>
+            <p class="post-body">
+            {% if post.meta.excerpt %}
+            {{post.meta.excerpt | strip_html}}
+            {% else %}
+            {{post.body | strip_html | truncate: 200}}
+            {% endif %}
+            </p>
+     
     </div>
     {% endfor %}
-  </ul>
+  
 
   </div>
   <div class="section">Fashion</div>
