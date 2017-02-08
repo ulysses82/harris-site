@@ -34,10 +34,26 @@ layout: default
 
 
   <div class="section">Music
-      <div class="slide"> Slide 1 </div>
-        <div class="slide"> Slide 2 </div>
-        <div class="slide"> Slide 3 </div>
-        <div class="slide"> Slide 4 </div>
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <div class="slide"> 
+        <img src="{{ post.assets.first.url }}" alt="{{ post.title }}" />
+        <h2>
+          { post.title}}
+        </h2>
+         <p class="post-body">
+        {% if post.meta.excerpt %}
+          {{post.meta.excerpt | strip_html}}
+        {% else %}
+          {{post.body | strip_html | truncate: 200}}
+        {% endif %}
+      </p>
+      </li>
+    </div>
+    {% endfor %}
+  </ul>
+
   </div>
   <div class="section">Fashion</div>
   <div class="section">Brands</div>
