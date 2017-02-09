@@ -5,15 +5,10 @@ collections:
   posts:
     title: Posts
     output: true
-    Field name:
-    - Image: 
-      Caption: 
-    - Image: 
-      Caption: 
-    - Image: 
-      Caption: 
-    - Image: 
-      Caption: 
+    gallery:
+      image: 
+      title: 
+      blurb: 
   uploads:
     title: Uploads
     output: true
