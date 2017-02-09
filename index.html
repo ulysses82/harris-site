@@ -38,16 +38,12 @@ layout: default
       {% for post in site.posts %}
       
         <div class="slide"> 
-          <img src="{{ post.assets.first.url }}" alt="{{ post.title }}" />
+         <img src="{{ page.gallery.image }}" alt="{{ post.title }}" />
             <h2>
-            {{post.title}}
+            {{ page.gallery.title }}
             </h2>
             <p class="post-body">
-            {% if post.meta.excerpt %}
-            {{post.meta.excerpt | strip_html}}
-            {% else %}
-            {{post.body | strip_html | truncate: 200}}
-            {% endif %}
+           {{ page.gallery.blurb }}
             </p>
      
     </div>
