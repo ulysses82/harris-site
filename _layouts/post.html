@@ -11,6 +11,14 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-  </div>
+  
+ <img src="{{ post.gallery.image }}" alt="{{ post.title }}" />
+            <h2>
+            {{ post.gallery.title }}
+            </h2>
+            <p class="post-body">
+           {{ post.gallery.blurb }}
+            </p>
+</div>
 
 </article>
