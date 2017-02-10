@@ -7,6 +7,6 @@ gallery:
   image: "/uploads/ROTRB-9.-Akinola-Davies---Film-Maker-%C2%A9-Dean-Chalkley-be79ec.jpg"
   title: rudeboy
   blurb: this is a description of the image
-layout: default
+layout: post
 ---
 
