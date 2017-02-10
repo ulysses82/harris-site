@@ -1,0 +1,9 @@
+---
+title: test 3
+date: 2017-02-10 16:24:00 Z
+gallery:
+  image: "/uploads/ONE17.jpg"
+  title: On test
+  blurb: no idea why this doesn't work
+---
+
