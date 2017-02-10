@@ -38,12 +38,12 @@ layout: default
       {% for post in site.posts %}
       
         <div class="slide"> 
-         <img src="{{page.gallery.image}}" alt="{{ post.title }}" />
+         <img src="{{ page.gallery.image }}" alt="{{ post.title }}" />
             <h2>
-            {{page.gallery.title}}
+            {{ page.gallery.title }}
             </h2>
             <p class="post-body">
-           {{page.gallery.blurb}}
+           {{ page.gallery.blurb }}
             </p>
      
     </div>
@@ -67,6 +67,8 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        
+        <span class="post-meta2"> {{ page.gallery.blurb }}</span>
       </li>
     {% endfor %}
   </ul>
