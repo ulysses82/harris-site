@@ -26,9 +26,9 @@ markdown: kramdown
 
 defaults:
 - scope:
-     type: Posts
-   values:  
-   gallery:
+    type: posts 
+  values:
+    gallery:
       image: 
-      title: 
-      blurb: 
+      title:
+      blurb:
