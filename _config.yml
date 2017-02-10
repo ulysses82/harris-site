@@ -25,7 +25,7 @@ github_username: jekyll
 markdown: kramdown
 
 defaults:
-  -scope:
+- scope:
      type: "posts"
    values:  
    gallery:
