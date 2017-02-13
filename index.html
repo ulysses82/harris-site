@@ -37,8 +37,8 @@ layout: default
     
       {% for post in site.posts %}
       
-        <div class="slide"> 
-         <img class="fullscreen" src="{{ post.gallery.image }}" alt="{{ post.title }}" />
+        <div class="slide" style="background-image:{{ post.gallery.image }};"> 
+       
             <h2>
             {{ post.gallery.title }}
             </h2>
