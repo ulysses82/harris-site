@@ -2,7 +2,7 @@
 title: test 3
 date: 2017-02-10 16:24:00 Z
 gallery:
-  image: "/uploads/slide-5.png"
+  image: "/uploads/slide5.jpg"
   title: Image 2
   blurb: test blurb here
 ---
