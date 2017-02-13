@@ -37,15 +37,15 @@ layout: default
     
       {% for post in site.posts %}
       
-        <div class="slide" style="background-image:{{ post.gallery.image }};"> 
-       
+        <div class="slide"> 
+       <div class="bg"style="background-image:{{ post.gallery.image }};"> 
             <h2>
             {{ post.gallery.title }}
             </h2>
             <p class="post-body">
            {{ post.gallery.blurb }}
             </p>
-     
+          </div>
     </div>
     {% endfor %}
   
