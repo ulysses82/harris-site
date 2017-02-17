@@ -38,7 +38,9 @@ layout: default
       {% for post in site.posts %}
       
         <div class="slide"> 
-       <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center fixed;"> 
+       <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center; background-size: cover;-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;"> 
             <h2>
             {{ post.gallery.title }}
             </h2>
