@@ -1,0 +1,11 @@
+---
+title: AD test
+date: 2017-02-20 17:31:00 Z
+categories:
+- exhibition
+gallery:
+  image: "/uploads/Rudeboy%20Installation%20Images%20-%20Getty%20013.jpg"
+  title: Rudeboy Tokyo
+  blurb: Barber installation
+---
+
