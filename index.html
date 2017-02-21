@@ -40,6 +40,27 @@ layout: default
   <div class="section">
     
       {% for post in site.posts %}
+      {% if post.categories contains 'music' %}
+        <div class="slide"> 
+       <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center; background-size: cover;-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;"> 
+            <h2>
+            {{ post.gallery.title }}
+            </h2>
+            <p class="post-body">
+           {{ post.gallery.blurb }}
+            </p>
+          </div>
+          {% endif %}
+    </div>
+    {% endfor %}
+  
+
+  </div>
+  <div class="section">Art Direction
+
+{% for post in site.posts %}
       
         <div class="slide"> 
        <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center; background-size: cover;-webkit-background-size: cover;
@@ -54,10 +75,8 @@ layout: default
           </div>
     </div>
     {% endfor %}
-  
 
-  </div>
-  <div class="section">Art Direction</div>
+</div>
   <div class="section">Film</div>
   <div class="section">Style</div>
  <div class="section">Fashion Show</div>
