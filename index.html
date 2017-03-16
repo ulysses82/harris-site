@@ -18,7 +18,7 @@ layout: default
   <div class="section">
 
       <div id="intro-menu">
-        <div id="inner-block"
+        <div id="inner-block">
            <ul id="navigation">
              <li data-menuanchor="firstPage" class="active"><a href="#secondPage">Exhibitions</a></li>
              <li data-menuanchor="secondPage"><a href="#3rdPage">Art Direction</a></li>
@@ -38,7 +38,12 @@ layout: default
 
 
   <div class="section">
-    
+    <div class="slide"> 
+       <div id="inner-block">
+        </div>
+      <div id="intro-slides">
+        </div>
+    </div>  
       {% for post in site.posts %}
         {% if post.categories contains 'exhibition' %}
         <div class="slide"> 
