@@ -18,7 +18,7 @@ layout: default
   <div class="section">
 
       <div id="intro-menu">
-        <div id="inner-block"
+        <div id="inner-block">
            <ul id="navigation">
              <li data-menuanchor="firstPage" class="active"><a href="#secondPage">Exhibitions</a></li>
              <li data-menuanchor="secondPage"><a href="#3rdPage">Art Direction</a></li>
@@ -37,6 +37,33 @@ layout: default
   </div>
 
 
+  <div class="section">
+    <div class="slide"> 
+       <div id="inner-block">
+        </div>
+      <div id="intro-slides">
+        </div>
+    </div>  
+      {% for post in site.posts %}
+        {% if post.categories contains 'exhibition' %}
+        <div class="slide"> 
+       <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center; background-size: cover;-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;"> 
+            <h2>
+            {{ post.gallery.title }}
+            </h2>
+            <p class="post-body">
+           {{ post.gallery.blurb }}
+            </p>
+          </div>
+          
+    </div>
+      {% endif %}
+    {% endfor %}
+  
+
+  </div>
   <div class="section">
     
       {% for post in site.posts %}
@@ -59,25 +86,6 @@ layout: default
   
 
   </div>
-  <div class="section">Art Direction
-
-{% for post in site.posts %}
-      
-        <div class="slide"> 
-       <div class="bg" style="background: url('{{ post.gallery.image }}') no-repeat center center; background-size: cover;-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;"> 
-            <h2>
-            {{ post.gallery.title }}
-            </h2>
-            <p class="post-body">
-           {{ post.gallery.blurb }}
-            </p>
-          </div>
-    </div>
-    {% endfor %}
-
-</div>
   <div class="section">Film</div>
   <div class="section">Style</div>
  <div class="section">Fashion Show</div>
