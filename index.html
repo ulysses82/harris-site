@@ -38,12 +38,22 @@ layout: default
 
 
   <div class="section">
+     {% for post in site.posts %}
+        {% if post.categories contains 'intro-exhibition' %}
     <div class="slide"> 
        <div id="inner-block">
+         {{content}}
         </div>
       <div id="intro-slides">
+        {{ post.gallery.image }}
+         <h2>
+            {{ post.gallery.title }}
+            </h2>
         </div>
     </div>  
+     {% endif %}
+    {% endfor %}
+    
       {% for post in site.posts %}
         {% if post.categories contains 'exhibition' %}
         <div class="slide"> 
