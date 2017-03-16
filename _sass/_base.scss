@@ -240,7 +240,25 @@ pre {
   
 }
 
-
+    .inner-block-intro{
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20% 5%;
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+    
+    }
+    
+    
+    .intro-slides-sections
+      {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 }
 
