@@ -47,6 +47,8 @@ img {
     vertical-align: middle;
 }
 
+.fadein { position:relative; width:100%; }
+.fadein img { position:absolute; left:0; top:0; }
 
 div.bg {
     -webkit-background-size: cover;
