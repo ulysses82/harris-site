@@ -7,5 +7,6 @@ gallery:
   image: "/uploads/_DSC8818_v1%20f1.jpg"
   title: Rudeboy @ Somerset House
   blurb: Rudeboy @ Somerset House
+  text colour: "#000000"
 ---
 
