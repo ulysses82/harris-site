@@ -222,6 +222,14 @@ pre {
     margin: 0 5px
   }
   
+    
+   #inner-block {
+display: table-cell;
+vertical-align: middle;
+
+}
+ 
+   
   #intro-menu {
    width: 50%;
    text-align: center;
@@ -301,19 +309,7 @@ pre {
  * Nav
  */
 
-#inner-block {
-display: table-cell;
-vertical-align: middle;
 
-}
- #intro-menu {
-  
-   text-align: center;
-   float: left;
-   display: table;
-   height: 100%;
-   list-style: none;
- }
 
 
 ul#navigation {
