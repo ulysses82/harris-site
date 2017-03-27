@@ -195,6 +195,12 @@ pre {
     letter-spacing: 1px;
 }
 
+ #inner-block {
+display: table-cell;
+vertical-align: middle;
+
+}
+
 @media only screen and (min-width: 1024px)   {
   
   .menu
@@ -223,11 +229,7 @@ pre {
   }
   
     
-   #inner-block {
-display: table-cell;
-vertical-align: middle;
-
-}
+  
  
    
   #intro-menu {
