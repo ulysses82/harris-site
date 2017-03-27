@@ -9,6 +9,7 @@ collections:
       image: 
       title: 
       blurb: 
+      text_colour: 
   uploads:
     title: Uploads
     output: true
