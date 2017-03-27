@@ -6,5 +6,6 @@ categories:
 gallery:
   image: "/uploads/HAT%20TRICKERS%202.png"
   title: Hat Trickers
+  text_colour: "#ffffff"
 ---
 
