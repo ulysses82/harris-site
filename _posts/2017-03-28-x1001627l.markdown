@@ -1,0 +1,11 @@
+---
+title: X1001627L
+date: 2017-03-28 14:34:00 Z
+categories:
+- exhibition
+gallery:
+  image: "/uploads/X1001627L%20this%20shot%20on%20right%20page%20with%20nothing%20facing%20it%20copy.jpg"
+  title: X1001627L
+  blurb: this shot on right page with nothing facing it copy
+---
+
