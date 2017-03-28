@@ -1,0 +1,10 @@
+---
+title: Style 1
+date: 2017-03-28 14:55:00 Z
+categories:
+- style
+gallery:
+  image: "/uploads/150326_rudeboy_session_miyavi5363%20copy.jpg"
+  title: Rudeboy session miyavi
+---
+
