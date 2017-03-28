@@ -50,7 +50,7 @@ img {
 }
 
 .fadein, .fadein2 { position:relative; width:100%; }
-.fadein, .fadein2 img { position:absolute; left:0; top:0; }
+.fadein img, .fadein2 img { position:absolute; left:0; top:0; }
 
 div.bg {
     -webkit-background-size: cover;
