@@ -1,0 +1,11 @@
+---
+title: Roger PIT
+date: 2017-03-28 14:29:00 Z
+categories:
+- exhibition
+gallery:
+  image: "/uploads/7348%20Roger%20PIT%20copy.jpg"
+  title: Roger PIT
+  blurb: add blurb here
+---
+

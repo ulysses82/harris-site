@@ -1,0 +1,10 @@
+---
+title: X1001400L
+date: 2017-03-28 14:32:00 Z
+categories:
+- exhibition
+gallery:
+  image: "/uploads/X1001400L%20copy.jpg"
+  title: 'X1001400L '
+---
+
