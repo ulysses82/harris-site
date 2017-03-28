@@ -1,0 +1,10 @@
+---
+title: Fashion 1
+date: 2017-03-28 15:21:00 Z
+categories:
+- fashion-show
+gallery:
+  image: "/uploads/7%20copy%202.jpg"
+  title: fashion 1
+---
+
