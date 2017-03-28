@@ -27,6 +27,14 @@
          .next('img').fadeIn()
          .end().appendTo('.fadein');}, 
       6000);
+	$(function(){
+    $('.fadein2 img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein2 :first-child').fadeOut()
+         .next('img').fadeIn2()
+         .end().appendTo('.fadein2');}, 
+      6000);	
+		
 });
 	</script>
 <script src="https://use.typekit.net/ntv2xdd.js"></script>
